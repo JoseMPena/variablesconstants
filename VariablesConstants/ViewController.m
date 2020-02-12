@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *word = @"Hello";
+    
+    NSString *word2;
+    
+    word2 = @"Hello World";
+    
+    NSString * const word3;
+    
+    name = @"José Manuel";
+    
+    self.label.text = [NSString stringWithFormat:@"%@ %@", word, name];
+    
 }
 
 
